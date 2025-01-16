@@ -1,9 +1,9 @@
 # 🗺 Cloud Computing
 
 ## Table of Contents: 
-- [Cloud Foundation (AWS)] ()
-- Multi-Cloud
-- Cloud Security
+- [Cloud Foundation (AWS)](cloud-foundataion-aws)
+- [Multi-Cloud](multi-cloud-aws)
+- [Cloud Security](cloud-security)
 
 # Cloud Foundataion (AWS)
 
