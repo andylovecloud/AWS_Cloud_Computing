@@ -9,3 +9,8 @@
 
 # AWS Projects
 
+## AWS Foundation Labs
+- You can prefer the list of [AWS Foundation Labs](https://aws.amazon.com/training/digital/aws-builder-labs/) here.
+
+
+## AWS Intermediate Labs
