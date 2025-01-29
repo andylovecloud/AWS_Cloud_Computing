@@ -1,15 +1,8 @@
-# 🗺 AWS Cloud Computing
-
 ## Table of Contents: 
-- [Cloud Foundation](#cloud-foundataion-aws)
-- [Multi-Cloud](#multi-cloud-aws)
-- [Cloud Security](#cloud-security)
+- [AWS Foundation](#aws-cloud-computing-knowledge)
+- [My AWS Projects](#my-aws-projects)
 
-# Cloud Foundataion
+# 🗺 AWS Cloud Computing Knowledge
 
+# AWS Projects
 
-# Multi-Cloud
-
-
-
-# Cloud Security
