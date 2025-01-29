@@ -44,14 +44,14 @@ None
 
 **Course Outline**
 
-Task 1: Create a VPC
-Task 2: Create your public subnet
-Task 3: Create an Internet Gateway
-Task 4: Create a Route Table, Add Routes, And Associate Public Subnets
-Task 5: Create a Security Group for your Web Server
-Task 6: Launch a Web Server in your Public Subnet
-Task 7: Create Private Subnets for your MySQL Server
-Task 8: Create a Security Group for your Database Server
-Task 9: Create a Database Subnet Group
-Task 10: Create an Amazon RDS Database
-Task 11: Connect Your Address Book Application to Your Database
+- Task 1: Create a VPC
+- Task 2: Create your public subnet
+- Task 3: Create an Internet Gateway
+- Task 4: Create a Route Table, Add Routes, And Associate Public Subnets
+- Task 5: Create a Security Group for your Web Server
+- Task 6: Launch a Web Server in your Public Subnet
+- Task 7: Create Private Subnets for your MySQL Server
+- Task 8: Create a Security Group for your Database Server
+- Task 9: Create a Database Subnet Group
+- Task 10: Create an Amazon RDS Database
+- Task 11: Connect Your Address Book Application to Your Database
