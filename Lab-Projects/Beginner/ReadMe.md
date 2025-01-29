@@ -5,14 +5,17 @@ Amazon VPC lets you provision a logically isolated section of the Amazon Web Ser
 
 
 **Level**
+
 Fundamental
 
 
 **Duration**
+
 1 Hours 30 Minutes
 
 
 **Course Objectives**
+
 In this course, you will learn how to:
 
 - Create an Amazon Virtual Private Cloud (VPC)
@@ -26,6 +29,7 @@ In this course, you will learn how to:
 
 
 **Intended Audience**
+
 This course is intended for:
 
  - Infrastructure Engineers
@@ -33,11 +37,13 @@ This course is intended for:
 
 
 **Prerequisites**
+
 We recommend that attendees of this course have the following prerequisites:
 
 None
 
 **Course Outline**
+
 Task 1: Create a VPC
 Task 2: Create your public subnet
 Task 3: Create an Internet Gateway
