@@ -5,12 +5,12 @@ YouTube : https://www.youtube.com/watch?v=BlYblh_zcaY
 ## 2.	Cost Management part:
 
 Amazon EC2 cost 
-<img scr="Lab-Projects/Beginner/Deploying and managing a WordPress website using AWS/images/Estimation-EC2-service.png">
+<img scr="./images/Estimation-EC2-service.png" width="200">
 
 
 Amazon RDS for MySQL cost
-<img scr="Lab-Projects/Beginner/Deploying and managing a WordPress website using AWS/images/Estimation-RDS-service.png">
+<img scr="./images/Estimation-RDS-service.png">
 
  
 Amazon Simple Storage Service (S3) cost
-<img scr="Lab-Projects/Beginner/Deploying and managing a WordPress website using AWS/images/Estimation-S3-service.png">
+<img scr="./images/Estimation-S3-service.png">
