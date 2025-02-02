@@ -20,3 +20,11 @@ Every practice always starts:
 1) AWS learner lab with startup 
 2) By installing or checking login credentials to AWS Labs 
 3) Change ip address of your own AWS EC2 server to hosts.ini file
+
+# Expectation files to return
+1) Main.tf
+2) Output.tf
+3) variables.tf
+4) Output.txt (from terraform output > output.txt)
+You need to get information to identify and connect to computer you have created. Remember labs are finicky so you need good information on them.
+5) Screenshot of your AWS EC2 machine created by scripts
