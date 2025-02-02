@@ -31,7 +31,7 @@ You will use Amazon S3 to store and serve media files like images and videos, to
  3.1 Click the bucket name and on the top menu for the bucket, you will see Permissions tab. Click Permissions.
  3.2 Click Edit on the bucket policy and copy the following policy that allows retrieve permissions from the bucket. Remember to replace the bucket name with your own bucket name.
 
-   {
+''' {
         "Version": "2012-10-17",
         "Statement": [
             {
@@ -40,10 +40,9 @@ You will use Amazon S3 to store and serve media files like images and videos, to
                 "Principal": "*",
                 "Action": "s3:GetObject",
                 "Resource": "arn:aws:s3:::yourBucketName/*"
-            }
-        ]
-    }
-
+                }
+           ]
+    } '''
 
 4.Upload an image to the bucket. You will get the Object URL.
 5.Use that Object URL to integrate an image in your Wordpress post after your WordPress website is installed.
