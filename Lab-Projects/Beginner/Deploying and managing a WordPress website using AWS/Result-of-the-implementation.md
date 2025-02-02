@@ -6,7 +6,7 @@ YouTube : https://www.youtube.com/watch?v=BlYblh_zcaY
 
 Amazon EC2 cost 
 <img scr="./images/Estimation-EC2-service.png" width="200">
-
+![Amazon EC2 cost](./images/Estimation-EC2-service.png)
 
 Amazon RDS for MySQL cost
 <img scr="./images/Estimation-RDS-service.png">
