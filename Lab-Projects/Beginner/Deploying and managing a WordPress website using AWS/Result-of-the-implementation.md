@@ -1,6 +1,8 @@
 
 # 1.	Video for Deploying and managing a WordPress website using AWS
 
+**Click to picture to see the video of Deploying and managing a WordPress website using AWS**
+
 [![Video for Deploying and managing a WordPress website using AWS](./images/My-Wordpress.png)](https://www.youtube.com/watch?v=BlYblh_zcaY)
 
 
