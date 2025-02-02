@@ -7,11 +7,11 @@ Go trouh https://developer.hashicorp.com/terraform/tutorials/aws-get-started and
 3) Return your own Terraform code and output file from terraform
 
 ## Materials
-[Terraform AWS provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
-[User_data](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance)
-[Terraform userdata hint](./Terraform_hint_user_data.md)
-[Terraform variables.tf how to](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-variables)
-[Terraform outputs.tf how to](https://developer.hashicorp.com/terraform/tutorials/configuration-language/outputs)
+- [Terraform AWS provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
+- [User_data](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance)
+- [Terraform userdata hint](./Terraform_hint_user_data.md)
+- [Terraform variables.tf how to](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-variables)
+- [Terraform outputs.tf how to](https://developer.hashicorp.com/terraform/tutorials/configuration-language/outputs)
 
 # Environments
 For the exercise, you need an internet connection, AWS learner lab, and an Ubuntu WSL machine.
