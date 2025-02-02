@@ -46,7 +46,7 @@ You will use Amazon S3 to store and serve media files like images and videos, to
 4.Upload an image to the bucket. You will get the Object URL.
 5.Use that Object URL to integrate an image in your Wordpress post after your WordPress website is installed.
 
-__* Note: (Optional)The ideal way of doing the above task is using some plugin in your Wrodpress website so that the images are automatically offloaded to the S3 bucket. If you wish, you can try the Optimole WordPress plugin. (How to offload WordPress media to S3 with Optimole)[https://wpshout.com/wordpress-s3-guide/#optimole] *__
+__*Note: (Optional)The ideal way of doing the above task is using some plugin in your Wrodpress website so that the images are automatically offloaded to the S3 bucket. If you wish, you can try the Optimole WordPress plugin. [How to offload WordPress media to S3 with Optimole](https://wpshout.com/wordpress-s3-guide/#optimole)*__
 
 # Amazon RDS for WordPress Database
 You will set up an Amazon RDS (Relational Database Service) instance to host the WordPress database, ensuring data durability and automatic backups.
