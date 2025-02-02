@@ -10,7 +10,8 @@
 # AWS Projects
 
 ## AWS Foundation Labs
-- You can prefer the list of [AWS Foundation Labs](https://aws.amazon.com/training/digital/aws-builder-labs/) here.
+- You can prefer the list of [my AWS Foundation Labs](https://github.com/andylovecloud/AWS_Cloud_Computing/tree/master/Lab-Projects/Beginner) here.
 
 
 ## AWS Intermediate Labs
+- Here are the list of [AWS Intermediate Labs](https://github.com/andylovecloud/AWS_Cloud_Computing/tree/master/Lab-Projects/Intermediate)
