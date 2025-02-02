@@ -2,6 +2,9 @@
 # 1.	Video for Deploying and managing a WordPress website using AWS
 YouTube : https://www.youtube.com/watch?v=BlYblh_zcaY
 
+[![Video for Deploying and managing a WordPress website using AWS]()](https://www.youtube.com/watch?v=BlYblh_zcaY)
+
+
 ## 2.	Cost Management part:
 
 Amazon EC2 cost 
