@@ -20,7 +20,7 @@ Note: You may do this task by utilizing AWS Elastic Beanstalk service (if you wi
 ## Amazon EC2 Instance for hosting
 Create an Amazon EC2 instance to host the WordPress application. You can choose Amazon Linux, Ubuntu, or other compatible AMIs. You need to install a web server that has support for php on the Amazon EC2 instance to host your WordPress application. You are required to open relevant ports and allow connections to your server so that the WordPress website is available to the public.
 
-(Wordpress Installation Guide)[https://github.com/dipaish/aws23/blob/main/wpGuide.md]
+[Wordpress Installation Guide](https://github.com/dipaish/aws23/blob/main/wpGuide.md)
 
 ## Amazon S3 for Media Storage
 You will use Amazon S3 to store and serve media files like images and videos, to reduce the storage load on your EC2 instance and enhance the overall performance. That is, you are required to create a S3 bucket, configure bucket permissions and upload your media files to the S3 bucket. You can upload some random light weight media files (a couple of images). You will then integrate an image or two in your blog post. Follow the steps below:
@@ -31,7 +31,7 @@ You will use Amazon S3 to store and serve media files like images and videos, to
  3.1 Click the bucket name and on the top menu for the bucket, you will see Permissions tab. Click Permissions.
  3.2 Click Edit on the bucket policy and copy the following policy that allows retrieve permissions from the bucket. Remember to replace the bucket name with your own bucket name.
 
-'''{
+   {
         "Version": "2012-10-17",
         "Statement": [
             {
@@ -42,7 +42,7 @@ You will use Amazon S3 to store and serve media files like images and videos, to
                 "Resource": "arn:aws:s3:::yourBucketName/*"
             }
         ]
-    }'''
+    }
 
 
 4.Upload an image to the bucket. You will get the Object URL.
@@ -67,4 +67,4 @@ Utilize AWS Cost Explorer and Budgets to monitor and manage costs associated wit
 
 1. Estimate the cost of running the above services based on minimal use of your services.
 
-You can use AWS Pricing Calulator to estimate your cost. (Link)[https://calculator.aws/#/addService]
+You can use AWS Pricing Calulator to estimate your cost. [Link](https://calculator.aws/#/addService)
