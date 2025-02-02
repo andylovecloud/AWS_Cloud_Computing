@@ -17,34 +17,39 @@ You are required to implement the following services:
 
 Note: You may do this task by utilizing AWS Elastic Beanstalk service (if you wish).
 
-Amazon EC2 Instance for hosting
+## Amazon EC2 Instance for hosting
 Create an Amazon EC2 instance to host the WordPress application. You can choose Amazon Linux, Ubuntu, or other compatible AMIs. You need to install a web server that has support for php on the Amazon EC2 instance to host your WordPress application. You are required to open relevant ports and allow connections to your server so that the WordPress website is available to the public.
 
-Wordpress Installation Guide
+(Wordpress Installation Guide)[https://github.com/dipaish/aws23/blob/main/wpGuide.md]
 
-Amazon S3 for Media Storage
+## Amazon S3 for Media Storage
 You will use Amazon S3 to store and serve media files like images and videos, to reduce the storage load on your EC2 instance and enhance the overall performance. That is, you are required to create a S3 bucket, configure bucket permissions and upload your media files to the S3 bucket. You can upload some random light weight media files (a couple of images). You will then integrate an image or two in your blog post. Follow the steps below:
 
-Create a bucket.
-Uncheck Block All Public Access.
-Configure the bucket permission as below:
-Click the bucket name and on the top menu for the bucket, you will see Permissions tab. Click Permissions.
-Click Edit on the bucket policy and copy the following policy that allows retrieve permissions from the bucket. Remember to replace the bucket name with your own bucket name.
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "AllowPublicRead",
-            "Effect": "Allow",
-            "Principal": "*",
-            "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::yourBucketName/*"
-        }
-    ]
-}
-Upload an image to the bucket. You will get the Object URL.
-Use that Object URL to integrate an image in your Wordpress post after your WordPress website is installed.
-Note: (Optional)The ideal way of doing the above task is using some plugin in your Wrodpress website so that the images are automatically offloaded to the S3 bucket. If you wish, you can try the Optimole WordPress plugin. How to offload WordPress media to S3 with Optimole
+1. Create a bucket.
+2. Uncheck Block All Public Access.
+3. Configure the bucket permission as below:
+    3.1 Click the bucket name and on the top menu for the bucket, you will see Permissions tab. Click Permissions.
+    3.2 Click Edit on the bucket policy and copy the following policy that allows retrieve permissions from the bucket. Remember to replace the bucket name with your own bucket name.
+'''
+    {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Sid": "AllowPublicRead",
+                "Effect": "Allow",
+                "Principal": "*",
+                "Action": "s3:GetObject",
+                "Resource": "arn:aws:s3:::yourBucketName/*"
+            }
+        ]
+    }
+
+'''
+
+    4.Upload an image to the bucket. You will get the Object URL.
+    5.Use that Object URL to integrate an image in your Wordpress post after your WordPress website is installed.
+
+__* **Note**: (Optional)The ideal way of doing the above task is using some plugin in your Wrodpress website so that the images are automatically offloaded to the S3 bucket. If you wish, you can try the Optimole WordPress plugin. How to offload WordPress media to S3 with Optimole *__
 
 Amazon RDS for WordPress Database
 You will set up an Amazon RDS (Relational Database Service) instance to host the WordPress database, ensuring data durability and automatic backups.
