@@ -15,7 +15,7 @@ In this overall task, think about information security and the overall nature of
 
 Write your answer and try to find an article to support your answer.
 
-# What to return
+# What to return (in "Return files" folder)
 1) Inventory, playbook.yml, default.yml files
 
 2) Screenshot of Wordpress with ip address
