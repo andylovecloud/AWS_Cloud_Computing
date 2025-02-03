@@ -1,6 +1,6 @@
 ## Table of Contents: 
-- [AWS Foundation](#aws-cloud-computing-knowledge)
-- [My AWS Projects](#my-aws-projects)
+- [AWS Foundation labs](#aws-foundation-labs)
+- [AWS Intermediate labs](#aws-intermediate-labs)
 
 # 🗺 AWS Cloud Foundation Knowledge
 - You don't know where to start? [Getting started](https://aws.amazon.com/getting-started/) here.
