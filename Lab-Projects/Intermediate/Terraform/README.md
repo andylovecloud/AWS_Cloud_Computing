@@ -21,7 +21,7 @@ Every practice always starts:
 2) By installing or checking login credentials to AWS Labs 
 3) Change ip address of your own AWS EC2 server to hosts.ini file
 
-# Expectation files to return
+# Expectation files to return -> in "Return-files" folder
 1) Main.tf
 2) Output.tf
 3) variables.tf
