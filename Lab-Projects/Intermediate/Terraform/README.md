@@ -1,5 +1,5 @@
 # Goal
-Go trouh https://developer.hashicorp.com/terraform/tutorials/aws-get-started and learn needed skills to create AWS infrastructure with Terraform.
+Go throuht https://developer.hashicorp.com/terraform/tutorials/aws-get-started and learn needed skills to create AWS infrastructure with Terraform.
 
 # Assignment goals
 1) You need to to create 1-3 EC2 machines with compatible AWS region (hint you will need to check your AWS Learner lab information) 
