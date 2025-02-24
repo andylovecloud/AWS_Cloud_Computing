@@ -14,7 +14,7 @@ Our goal is to practice decentralizing services to several different operators o
 ## Assignment
 
 Assigment will be in two parts: 
-- First part is to create a Wordpress site on an EC2 instance and connect it to Cloudfare. You shuld have Wordpress from previous assignment.
+- **First part** is to create a Wordpress site on an EC2 instance and connect it to Cloudfare. You shuld have Wordpress from previous assignment.
 
 1. Get a domain using Github student pack
 2. Create a free account on Cloudfare.
@@ -25,7 +25,7 @@ Assigment will be in two parts:
 7. Connect to your Wordpress (EC2 or Google) using Cloudflare proxy with https
 8. Make a screenshot of your 1) EC2 panel IP address 2) Cloudfare panel (DNS panel where is the domain name and ip) 3) Wordpress site with https 4) nslookup of your domain.
 
-- Second part is to "write" a calculation of the cost of running the site for a year. You should include the cost of the domain, the cost of the EC2 instance, and the cost of the Cloudflare service. No need for exact numbers, but you should be able to explain how you got the numbers. Some metalogic is required!!!
+- **Second part ** is to "write" a calculation of the cost of running the site for a year. You should include the cost of the domain, the cost of the EC2 instance, and the cost of the Cloudflare service. No need for exact numbers, but you should be able to explain how you got the numbers. Some metalogic is required!!!
 
 **Scenario Wordpress:**
 
@@ -42,4 +42,6 @@ Physical example: https://raf.mod.uk/news/articles/raf-typhoons-land-and-take-of
 ## Ansible + Docker + Wordpress code
 
 [Ready made Ansible playbook for generating Wordpress site](../Ansible/Other-files/playbook.yaml)
+
+## Result in -> "Return files" folder
 

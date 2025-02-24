@@ -1,5 +1,5 @@
 # Goal
-Go trouh https://developer.hashicorp.com/terraform/tutorials/aws-get-started and learn needed skills to create AWS infrastructure with Terraform.
+Go throuht https://developer.hashicorp.com/terraform/tutorials/aws-get-started and learn needed skills to create AWS infrastructure with Terraform.
 
 # Assignment goals
 1) You need to to create 1-3 EC2 machines with compatible AWS region (hint you will need to check your AWS Learner lab information) 
@@ -21,7 +21,7 @@ Every practice always starts:
 2) By installing or checking login credentials to AWS Labs 
 3) Change ip address of your own AWS EC2 server to hosts.ini file
 
-# Expectation files to return
+# Expectation files to return -> in "Return-files" folder
 1) Main.tf
 2) Output.tf
 3) variables.tf
